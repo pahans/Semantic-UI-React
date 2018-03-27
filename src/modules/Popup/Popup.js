@@ -115,6 +115,9 @@ export default class Popup extends Component {
      * @param {object} data - All props.
      */
     onUnmount: PropTypes.func,
+    
+    /** Controls whether or not the Popup is displayed. */
+    open: PropTypes.bool,
 
     /** Position for the popover. */
     position: PropTypes.oneOf(POSITIONS),
